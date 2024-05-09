@@ -20,6 +20,7 @@ export default function GetStarted() {
   const navigation = useNavigation();
   return (
     <SafeAreaView style={tw`flex-1 `}>
+      {/* jjj */}
       <View style={tw`flex-1 p-3`}>
         <KeyboardAvoidingView behavior="padding">
           <ScrollView showsVerticalScrollIndicator={false}>
